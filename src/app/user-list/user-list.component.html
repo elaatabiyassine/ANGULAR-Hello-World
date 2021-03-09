@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor = "let name of names"> 
+        
+        <app-user-item-component [name]="name"></app-user-item-component> <!--The syntx [name] means we want to pass a value to the input named "name" in the user component-->
+    
+    </li>    <!---NG for creates a DOM  element of type li for every name in our collection of names-->
+</ul>
